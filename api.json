@@ -1,10 +1,8 @@
 {
-  "category": "DEMON_ANGEL",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/succubus-incubus",
     "maintainers": [
       {
@@ -18,455 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "succubus-incubus",
     "name": "Succubus/Incubus",
-    "aliases": [
-      {
-        "name": "Succubus",
-        "language": "Latin",
-        "meaning": "to lie beneath"
-      },
-      {
-        "name": "Incubus",
-        "language": "Latin",
-        "meaning": "to lie upon"
-      },
-      {
-        "name": "Night Hag",
-        "region": "Various",
-        "meaning": "Female demon visiting at night"
-      },
-      {
-        "name": "Lilith",
-        "region": "Mesopotamian/Jewish",
-        "meaning": "Ancient night demon, first wife of Adam"
-      },
-      {
-        "name": "Mara",
-        "region": "Germanic/Slavic",
-        "meaning": "Night demon causing sleep paralysis"
-      },
-      {
-        "name": "Alp",
-        "region": "German",
-        "meaning": "Nightmare demon"
-      }
-    ],
-    "category": "DEMON_ANGEL",
-    "subcategory": "Sexual Demons",
+    "aliases": [],
+    "category": "|_GENERAL_DEMONIC_ENTITIES_|",
+    "subcategory": "Sexual/Nocturnal",
     "tags": [
-      "demon",
-      "sexual",
-      "sleep-paralysis",
-      "medieval",
-      "nocturnal",
-      "shape-shifter",
-      "life-force-drain"
+      "folklore",
+      "mythology"
     ],
-    "status": "historical",
+    "status": "documented",
     "description": {
       "summary": "Succubus (female) and Incubus (male) are demons from medieval Christian demonology that seduce humans during sleep, drain life force through sexual encounters, and sometimes steal semen or impregnate victims.",
-      "full": "Succubus and Incubus are sexual demons from medieval Christian demonology, with roots in earlier Mesopotamian mythology. A Succubus (female demon) seduces men during sleep, while an Incubus (male demon) seduces women. These entities are described as shape-shifters appearing as attractive humans, draining victims' life force through sexual encounters. Medieval texts claimed they could steal semen from men or impregnate women, sometimes explaining pregnancies out of wedlock or nocturnal emissions. Modern understanding attributes these experiences to sleep paralysis with hypnagogic hallucinations, though the phenomenon appears in folklore worldwide under various names including Lilith, Mara, and Alp."
+      "full": "Succubus (female) and Incubus (male) are demons from medieval Christian demonology that seduce humans during sleep, drain life force through sexual encounters, and sometimes steal semen or impregnate victims. These entities are described as shape-shifters appearing as attractive humans, draining victims' life force through sexual contact. Medieval texts claimed they could steal semen from men or use it to impregnate women, explaining both nocturnal emissions and pregnancies out of wedlock. Modern understanding attributes these experiences to **sleep paralysis with hypnagogic hallucinations**, though the phenomenon appears in folklore worldwide under various names including Lilith, Mara, and Alp."
     },
     "etymology": {
-      "origin": "Latin terms from medieval Christian demonology, though the concept has much older roots in Mesopotamian mythology (Lilith, Ardat-lili)",
-      "meaning": "Succubus: 'to lie beneath' (succubare); Incubus: 'to lie upon' (incubare)",
-      "first_use": "Medieval period (widespread usage from 12th-15th centuries)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "DEMON_ANGEL",
-      "type": "Demon",
-      "subtype": "Sexual/Nocturnal",
-      "variant": "European/Christian"
+      "category": "|_GENERAL_DEMONIC_ENTITIES_|",
+      "type": "Sexual/Nocturnal",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "demons",
-        "name": "Demons",
-        "relationship": "parent_category",
-        "description": "General demonic entities"
-      },
-      {
-        "id": "sleep-paralysis",
-        "name": "Sleep Paralysis",
-        "relationship": "scientific_explanation",
-        "description": "Modern understanding of the phenomenon"
-      },
-      {
-        "id": "possession",
-        "name": "Possession",
-        "relationship": "related",
-        "description": "Demonic influence over humans"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": {
-        "base_form": "Shape-shifter, no true fixed form",
-        "common_form": "Extremely attractive human of opposite sex to victim",
-        "variations": [
-          "Beautiful woman (Succubus)",
-          "Handsome man (Incubus)",
-          "Former lover or desired person",
-          "Demonic form with wings, tail, horns (rare sightings)"
-        ],
-        "confidence": "low"
-      },
-      "features": [
-        {
-          "feature": "Shape-shifting",
-          "description": "Ability to appear as any attractive human form",
-          "frequency": "always"
-        },
-        {
-          "feature": "Seductive appearance",
-          "description": "Manifests as ideal sexual partner for victim",
-          "frequency": "always"
-        },
-        {
-          "feature": "Cold touch",
-          "description": "Reported coldness despite appearance of warmth",
-          "frequency": "common"
-        },
-        {
-          "feature": "Demonic features",
-          "description": "Wings, tail, horns visible in true form",
-          "frequency": "rare"
-        }
-      ],
-      "morphology": "No consistent physical form; appears as needed to seduce victim"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shape-shifting",
-        "description": "Can appear as any human form, typically attractive to victim",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Dream manipulation",
-        "description": "Enters and controls dreams, creates vivid sexual scenarios",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Life force drain",
-        "description": "Drains victim's energy through sexual contact",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Can remain invisible or appear only to intended victim",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Semen theft/pregnancy",
-        "description": "Medieval belief: steal semen or impregnate women",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "malevolent",
-      "targets": "Sleeping humans, particularly those in lustful or sinful states",
-      "patterns": [
-        "Visits victims during sleep",
-        "Repeated visitations to same victim",
-        "Leaves victim exhausted and weakened",
-        "May cause obsessive thoughts or desires",
-        "Medieval texts: more active during sinful thoughts"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Worldwide phenomenon under various names, most documented in medieval Christian Europe",
-      "continents": ["Europe", "Middle East", "Asia", "Americas"],
-      "regions": [
-        "Medieval Europe (primary documentation)",
-        "Mesopotamia (ancient origins)",
-        "Jewish mysticism",
-        "Islamic traditions (jinn)",
-        "Germanic/Slavic folklore"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "circa 3000 BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Mesopotamian Lilith mythology"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "1200-1600",
-          "description": "Medieval and Renaissance Europe, widespread belief and documentation"
-        },
-        {
-          "period": "1487-1700",
-          "description": "Witch-hunting period, extensively documented in Malleus Maleficarum"
-        }
-      ],
-      "modern_reports": "Continues in sleep paralysis experiences and paranormal accounts"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Mesopotamian demons (Lilith, Ardat-lili) who attacked men at night. Adopted and developed extensively in medieval Christian demonology as explanation for nocturnal emissions, illicit pregnancy, and sleep disturbances.",
-      "earliest_accounts": "Lilith appears in Sumerian texts circa 3000 BCE as a night demon. Jewish Talmudic texts (circa 500 CE) describe Lilith as Adam's first wife who became a demon.",
-      "folklore_connections": "Connected to worldwide night hag/mare traditions: Germanic Mara, Slavic Mora, Old English Mære, Greek Ephialtes"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "circa 3000 BCE",
-        "event": "Lilith in Sumerian mythology",
-        "significance": "Earliest documented night demon attacking men",
-        "source": "Mesopotamian texts"
-      },
-      {
-        "date": "circa 500 CE",
-        "event": "Jewish Talmud references",
-        "significance": "Lilith described as Adam's first wife turned demon",
-        "source": "Talmudic literature"
-      },
-      {
-        "date": "1150-1300",
-        "event": "Medieval theological development",
-        "significance": "Succubus/Incubus formalized in Christian demonology",
-        "source": "Theological treatises"
-      },
-      {
-        "date": "1487",
-        "event": "Malleus Maleficarum published",
-        "significance": "Witch-hunting manual extensively documents succubi/incubi",
-        "source": "Heinrich Kramer and Jacob Sprenger"
-      },
-      {
-        "date": "1600s",
-        "event": "Witch trial testimonies",
-        "significance": "Numerous accused witches confess to sexual relations with demons",
-        "source": "Trial records across Europe"
-      }
-    ],
-    "modern_era": "Modern medicine recognizes sleep paralysis with hypnagogic/hypnopompic hallucinations as the physiological basis for these experiences. The phenomenon is well-documented scientifically, though paranormal believers continue to report demonic sexual encounters."
+    "timeline": []
   },
-
-  "encounters": {
+  "sightings": {
     "statistics": {
-      "total_documented": 5000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 5000,
-      "debunked": 4500,
-      "date_range": {
-        "earliest": "3000 BCE",
-        "latest": "2026"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "incubus-encounter-merlin",
-        "name": "Merlin's Conception",
-        "date": {
-          "value": "circa 500 CE",
-          "precision": "legendary"
-        },
-        "location": {
-          "description": "Wales",
-          "region": "Britain"
-        },
-        "description": "Medieval legend claims Merlin the wizard was conceived when an incubus visited his mother, a nun. This explained his magical powers as half-demonic heritage.",
-        "credibility": {
-          "rating": "low",
-          "factors": ["Legendary account", "No contemporary documentation"],
-          "notes": "Demonstrates medieval use of incubus to explain extraordinary abilities"
-        },
-        "sources": [
-          "Geoffrey of Monmouth, Historia Regum Britanniae (1136)"
-        ]
-      },
-      {
-        "id": "succubus-encounter-witch-trials",
-        "name": "European Witch Trial Confessions",
-        "date": {
-          "value": "1400-1700",
-          "precision": "period"
-        },
-        "location": {
-          "description": "Throughout Europe",
-          "region": "Various"
-        },
-        "description": "Thousands of accused witches confessed under torture to sexual relations with demons (incubi). These confessions formed basis for convictions and executions.",
-        "credibility": {
-          "rating": "low",
-          "factors": ["Confessions under torture", "Mass hysteria period"],
-          "notes": "Demonstrates widespread belief but confessions unreliable due to torture"
-        },
-        "sources": [
-          "Witch trial records, various European courts"
-        ]
-      }
-    ]
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "type": "none",
-        "description": "No physical evidence exists; phenomenon is entirely testimonial and folkloric"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "medieval-texts",
-        "type": "historical documents",
-        "name": "Medieval theological and legal texts",
-        "description": "Extensive documentation in religious texts, witch-hunting manuals, and trial records",
-        "status": "historical",
-        "analysis": "Reflects cultural beliefs and sleep disorder experiences"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Genuine Demonic Entities",
-        "description": "Succubi and Incubi are real demons that sexually assault humans during sleep",
-        "proponents": ["Medieval Christian theologians", "Some modern demonologists"],
-        "evidence_cited": ["Consistency of reports across cultures", "Vivid nature of experiences"]
-      },
-      {
-        "name": "Astral/Spirit Entities",
-        "description": "Non-physical entities from astral plane that feed on sexual energy",
-        "proponents": ["Modern occultists", "New Age practitioners"],
-        "evidence_cited": ["Out-of-body experiences", "Energy drain sensations"]
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Sleep Paralysis with Hypnagogic Hallucinations",
-        "description": "Experiences are sleep paralysis episodes combined with vivid sexual hallucinations during REM sleep intrusion",
-        "proponents": ["Sleep researchers", "Medical science"],
-        "evidence_cited": ["Well-documented sleep paralysis phenomenon", "Brain activity during REM sleep", "Correlation with sleep disorders"]
-      },
-      {
-        "name": "Nocturnal Emissions Explanation",
-        "description": "Medieval explanation for natural nocturnal emissions and erotic dreams",
-        "proponents": ["Historians", "Medical researchers"],
-        "evidence_cited": ["Normal physiological process", "Cultural need to explain without acknowledging sexuality"]
-      },
-      {
-        "name": "Psychological Projection",
-        "description": "Projection of repressed sexual desires, particularly in sexually repressive cultures",
-        "proponents": ["Psychologists", "Cultural historians"],
-        "evidence_cited": ["Prevalence in sexually repressive medieval Christianity", "Guilt and shame dynamics"]
-      }
-    ],
-    "cultural": [
-      {
-        "name": "Social Control Mechanism",
-        "description": "Belief system used to control sexual behavior and explain illicit pregnancies",
-        "proponents": ["Historians", "Sociologists"],
-        "evidence_cited": ["Use in witch trials", "Explanation for pregnancy out of wedlock", "Moral enforcement"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Lilith in Jewish mysticism (Kabbalah)",
-        "Germanic Mara/Alp traditions",
-        "Slavic Mora night demon",
-        "Islamic jinn traditions"
-      ],
-      "beliefs": "Medieval Christianity: demons could steal semen from men and use it to impregnate women, explaining both nocturnal emissions and illicit pregnancy. Offspring might be changelings or possessed."
-    },
-    "historical": {
-      "texts": [
-        "Malleus Maleficarum (1487) - Extensive discussion of incubi and succubi",
-        "Summa Theologica by Thomas Aquinas - Theological treatment",
-        "Compendium Maleficarum (1608) - Witch-hunting manual",
-        "The Alphabet of Ben-Sira (700-1000 CE) - Lilith as Adam's first wife"
-      ],
-      "significance": "Used to explain sexual experiences during sleep, pregnancies out of wedlock, and nocturnal emissions. Central to witch trial prosecutions.",
-      "sensitivity_note": "Historical persecution: thousands executed based partly on confessions of demonic sexual encounters (under torture)"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Paradise Lost by John Milton (1667) - References to demonic sexuality",
-        "The Monk by Matthew Lewis (1796) - Gothic demon seduction",
-        "Various modern paranormal romance novels"
-      ],
-      "film_tv": [
-        "The Entity (1982) - Based on alleged incubus case",
-        "Jennifer's Body (2009) - Succubus-like demon",
-        "Supernatural TV series - Multiple succubus episodes",
-        "Lost Girl TV series - Succubus protagonist"
-      ],
-      "games": [
-        "Dungeons & Dragons - Succubus/Incubus as monster type",
-        "World of Warcraft - Succubus as warlock companion",
-        "Castlevania series - Recurring succubus enemies"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Dr. J. Allan Hobson",
-        "affiliation": "Harvard Medical School",
-        "contribution": "Sleep paralysis and REM intrusion research explaining experiences",
-        "period": "1990s-present"
-      },
-      {
-        "name": "Dr. Brian Sharpless",
-        "affiliation": "Washington State University",
-        "contribution": "Extensive research on sleep paralysis hallucinations",
-        "period": "2000s-present"
-      }
-    ],
-    "ongoing_studies": "Sleep medicine continues to document and explain sleep paralysis experiences. Cultural and historical research examines the social functions of succubus/incubus beliefs."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "malleus-1487",
-      "type": "book",
-      "title": "Malleus Maleficarum",
-      "authors": ["Heinrich Kramer", "Jacob Sprenger"],
-      "publication": "Various editions",
-      "date": "1487"
-    },
-    {
-      "id": "sharpless-2015",
-      "type": "book",
-      "title": "Sleep Paralysis: Historical, Psychological, and Medical Perspectives",
-      "authors": ["Brian Sharpless", "Karl Doghramji"],
-      "publication": "Oxford University Press",
-      "date": "2015",
-      "isbn": "978-0199313808"
-    },
-    {
-      "id": "davies-2003",
-      "type": "book",
-      "title": "America Bewitched: The Story of Witchcraft After Salem",
-      "authors": ["Owen Davies"],
-      "publication": "Oxford University Press",
-      "date": "2003",
-      "isbn": "978-0199578092"
-    }
-  ]
+  "sources": []
 }
