@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/succubus-incubus",
     "maintainers": [
       {
@@ -16,72 +16,133 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "succubus-incubus",
-    "name": "Succubus/Incubus",
-    "aliases": [],
-    "category": "|_GENERAL_DEMONIC_ENTITIES_|",
-    "subcategory": "Sexual/Nocturnal",
+    "name": "Succubus / Incubus",
+    "aliases": [
+      { "name": "Succuba", "language": "Latin", "meaning": "paramour; one who lies beneath" },
+      { "name": "Incubus", "language": "Latin", "meaning": "one who lies on top" },
+      { "name": "Lilith", "language": "Hebrew", "region": "Near East", "meaning": "night demon associated with sexual predation" },
+      { "name": "Mara", "language": "Old Norse / Germanic", "region": "Northern Europe", "meaning": "nightmare spirit that rides sleeping persons" },
+      { "name": "Alp", "language": "German", "region": "Central Europe", "meaning": "nightmare demon; elf" },
+      { "name": "Cambion", "language": "Medieval Latin", "meaning": "offspring of a demon and human" }
+    ],
+    "category": "DEMON_ANGEL",
+    "subcategory": "Nocturnal sexual demon",
     "tags": [
+      "demon",
+      "nocturnal",
       "folklore",
-      "mythology"
+      "medieval",
+      "sleep-paralysis",
+      "sexual-entity",
+      "shapeshifter",
+      "europe",
+      "demonology"
     ],
     "status": "documented",
     "description": {
-      "summary": "Succubus (female) and Incubus (male) are demons from medieval Christian demonology that seduce humans during sleep, drain life force through sexual encounters, and sometimes steal semen or impregnate victims.",
-      "full": "Succubus (female) and Incubus (male) are demons from medieval Christian demonology that seduce humans during sleep, drain life force through sexual encounters, and sometimes steal semen or impregnate victims. These entities are described as shape-shifters appearing as attractive humans, draining victims' life force through sexual contact. Medieval texts claimed they could steal semen from men or use it to impregnate women, explaining both nocturnal emissions and pregnancies out of wedlock. Modern understanding attributes these experiences to **sleep paralysis with hypnagogic hallucinations**, though the phenomenon appears in folklore worldwide under various names including Lilith, Mara, and Alp."
+      "summary": "In medieval Christian demonology, the succubus (female) and incubus (male) are demons that seduce humans during sleep through sexual encounters, draining their life force; the tradition appears globally under various names and is now understood to be closely associated with sleep paralysis and hypnagogic hallucinations.",
+      "full": "The succubus and incubus are complementary demons appearing prominently in medieval Christian demonology. A succubus takes female form to seduce men during sleep, while the incubus takes male form to assault women. Repeated nocturnal encounters were believed to drain the victim's physical and mental health, potentially causing death. According to the Malleus Maleficarum (1486), succubi collect semen from seduced men; male demons (incubi) then use this semen to impregnate human females. The offspring, called cambions, were said to be born deformed or supernaturally influenced. The succubus typically manifests as a beautiful woman, though closer inspection might reveal deformities such as bird-like claws or a serpentine tail. King James I of England, in his Daemonologie (1597), theorized that demons employed two methods: stealing sperm from corpses or possessing dead bodies for sexual relations. Modern scholarship attributes the experiences underlying these legends primarily to sleep paralysis with hypnagogic or hypnopompic hallucinations, which can produce vivid sensations of a presence, physical pressure, and even sexual experiences during the hypnagogic state. The phenomenon appears in folklore worldwide under various names, including the Mara of Germanic tradition, the Alp of Central Europe, and the Mare of Old English texts."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Late Latin succuba, from succubare (to lie beneath), combined with the prefix sub- and cubare (to lie down). The incubus derives from incubare (to lie upon). Both terms entered medieval theological Latin.",
+      "meaning": "Succubus: 'she who lies beneath'; Incubus: 'he who lies upon'",
+      "first_use": "Succubus in English: late 14th century. Both terms widely used in medieval Latin theological writing from the 13th century onward."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_GENERAL_DEMONIC_ENTITIES_|",
-      "type": "Sexual/Nocturnal",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "DEMON_ANGEL",
+      "type": "Nocturnal demon",
+      "subtype": "Sexual / incubi class",
+      "variant": "European (primary); global analogues"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mara-nightmare", "name": "Mara / Mare", "relationship": "regional_variant", "description": "Germanic and Old Norse nightmare demon that rides sleeping persons; functionally similar to succubus/incubus" },
+      { "id": "alp", "name": "Alp", "relationship": "regional_variant", "description": "Central European nightmare demon of Germanic tradition" },
+      { "id": "lilith", "name": "Lilith", "relationship": "related", "description": "Hebrew demoness associated with nocturnal predation and infant death; frequently identified with the succubus tradition" },
+      { "id": "sleep-paralysis", "name": "Sleep Paralysis", "relationship": "related", "description": "Modern scientific explanation for reported succubus/incubus encounters" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Beautiful human female form (succubus)", "description": "Typically manifests as an extraordinarily attractive woman to entice male victims", "frequency": "always" },
+        { "feature": "Deformities upon inspection", "description": "Closer inspection may reveal bird-like claws, serpentine tails, hooves, or other monstrous features", "frequency": "common" },
+        { "feature": "Shapeshifting ability", "description": "Can alter appearance to match the desires of the target victim", "frequency": "common" },
+        { "feature": "Cold or inhuman touch", "description": "Victims often report a cold or unnatural physical sensation during encounters", "frequency": "occasional" }
+      ],
+      "morphology": "The succubus presents as a beautiful human woman; the incubus as a handsome or powerfully built man. Both may conceal monstrous features beneath their attractive exteriors. Medieval art occasionally depicted them with wings, claws, or tails. The Malleus Maleficarum describes their ability to change gender and assume the form of a deceased loved one."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Dream infiltration", "description": "Appears during sleep, entering and manipulating the victim's dreams to facilitate seduction", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Life force drain", "description": "Prolonged visitation is described as causing physical and mental deterioration, potentially leading to death", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting", "description": "Can appear as any person, including deceased loved ones, to deceive victims", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Semen collection (succubus) / impregnation (incubus)", "description": "According to the Malleus Maleficarum, succubi collect semen which incubi then use to impregnate women, explaining pregnancies attributed to demon paternity", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Sleep paralysis induction", "description": "Described as pinning the victim to the bed, preventing movement or escape during the encounter", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["bedchambers", "sleeping quarters", "dreams"],
+      "diet": "Described as feeding on life force, sexual energy, or semen of sleeping human victims",
+      "patterns": [
+        "Visits the same victim repeatedly, increasing in frequency",
+        "Chooses victims who are isolated or spiritually weakened",
+        "Reportedly deterred by holy objects, prayers, and religious rites",
+        "May take the form of a deceased spouse or loved one to bypass victim resistance"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The succubus/incubus tradition is found throughout medieval Europe and has functional analogues in cultures worldwide. The specific Christian demonological framework is primarily European (especially Western and Central Europe), but similar nocturnal sexual demon traditions appear across the Middle East, Africa, and Asia.",
+      "continents": ["Europe", "Asia", "Africa", "Americas"],
+      "countries": ["Multiple — the concept appears worldwide under different names"],
+      "regions": [
+        "Western Europe (medieval demonological tradition)",
+        "Central Europe (Alp tradition)",
+        "Scandinavia (Mara tradition)",
+        "Near East (Lilith tradition)",
+        "West Africa (incubus analogues)"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Ancient",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Mesopotamian and Hebrew antecedents predate the Christian demonological tradition; the specific Latin terms appear in medieval theological texts from the 13th century"
+      },
+      "peak_activity_periods": [
+        { "period": "1400–1700", "description": "Peak of European demonological literature and witch trial period; extensive theological debate about incubi and succubi in works including the Malleus Maleficarum (1486)" }
+      ],
+      "seasonal_patterns": "No seasonal pattern documented; encounters reported year-round"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The succubus and incubus concept emerged from a synthesis of pre-Christian Near Eastern demonology (including Lilith and Mesopotamian female demons), Greek and Roman supernatural lore (Lamia, Empusae), and medieval Christian theological frameworks concerning demonic activity and sin. The tradition was heavily shaped by celibate monastic culture and theological concern with sexual morality.",
+      "earliest_accounts": "Antecedents include the Hebrew figure of Lilith and Mesopotamian female demons who preyed on sleeping men. The specific Christian formulation appears in medieval theological texts; the term 'incubus' appears in early medieval church councils and penitentials.",
+      "folklore_connections": "Closely related to the Germanic Mara/Mare (nightmare demon), the Scandinavian Mara, the Central European Alp, and numerous Asian and African analogues. The Old Hag phenomenon described in Newfoundland folklore is functionally identical. Modern researchers connect all such traditions to cross-cultural reports of sleep paralysis."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "700", "event": "Church councils and penitentials begin addressing incubus demons in canon law, indicating the tradition was established enough to require ecclesiastical response", "significance": "Earliest documented institutional recognition", "source": "Medieval canon law sources" },
+      { "date": "1215", "event": "Fourth Lateran Council reinforces orthodox positions on demonic activity, influencing subsequent demonological literature", "significance": "Theological framework for later succubus/incubus doctrine", "source": "Fourth Lateran Council documents" },
+      { "date": "1486", "event": "Publication of the Malleus Maleficarum by Heinrich Kramer and Jacob Sprenger; provides the most detailed medieval theological account of incubi and succubi, including the theory of semen transfer", "significance": "Most influential demonological text; primary source for succubus/incubus doctrine", "source": "Kramer, H. & Sprenger, J. (1486), Malleus Maleficarum" },
+      { "date": "1597", "event": "King James VI of Scotland (later James I of England) publishes Daemonologie, discussing incubi and succubi", "significance": "Royal endorsement of the tradition; influenced witch-trial jurisprudence", "source": "James VI (1597), Daemonologie" },
+      { "date": "1931", "event": "Ernest Jones publishes On the Nightmare, linking the nightmare/incubus tradition to unconscious psychological processes", "significance": "First major psychoanalytic treatment of the tradition", "source": "Jones, E. (1931), On the Nightmare, Hogarth Press" }
+    ],
+    "modern_era": "Contemporary researchers and clinicians understand succubus and incubus experiences primarily as manifestations of sleep paralysis with hypnagogic or hypnopompic hallucinations. This neurological phenomenon, which can produce vivid sensations of presence, physical pressure, and even sexual sensation, has been documented across cultures and provides a parsimonious explanation for the cross-cultural consistency of these legends."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +153,143 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "succubus-malleus-maleficarum",
+        "type": "archive",
+        "name": "Malleus Maleficarum",
+        "date": "1486",
+        "description": "Principal medieval demonological text by Heinrich Kramer and Jacob Sprenger; contains the most extensive theological treatment of incubi and succubi, including the theory that succubi collect semen and pass it to incubi for use in impregnating human women.",
+        "status": "verified",
+        "analysis": "Primary source for the European demonological tradition; reflects 15th-century theological consensus rather than empirical observation.",
+        "source": "Kramer, H. & Sprenger, J. (1486)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Literal demonic visitation",
+        "description": "Traditional theological view: succubi and incubi are real demons sent by Satan to corrupt human souls through sexual sin, as described in medieval demonological literature.",
+        "proponents": ["Medieval Catholic theologians", "Heinrich Kramer", "Jacob Sprenger"],
+        "evidence_cited": ["Malleus Maleficarum (1486)", "Daemonologie by King James (1597)", "numerous medieval ecclesiastical reports"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Sleep paralysis with hypnagogic hallucination",
+        "description": "The standard modern explanation: during sleep paralysis, the brain remains in REM state while the body is temporarily immobilized. Hypnagogic or hypnopompic hallucinations can produce vivid sensations of presence, physical pressure, and sexual experiences, explaining reports across cultures.",
+        "proponents": ["Sleep researchers broadly", "David Hufford (The Terror That Comes in the Night, 1982)"],
+        "evidence_cited": ["Cross-cultural consistency of reports", "Neurological research on REM-state intrusion", "Clinical documentation of sleep paralysis experiences"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural projection and clerical anxiety",
+        "description": "The succubus/incubus tradition reflects the sexual anxieties of celibate clerical culture; nocturnal emissions and sexual dreams required theological explanation, and the demon framework served social functions around sin, guilt, and bodily control.",
+        "proponents": ["Historians of religion broadly", "Walter Stephens"],
+        "evidence_cited": ["Concentration of detailed accounts in celibate monastic communities", "Theological function of the tradition in explaining sexual transgression"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Medieval European Christian demonology (incubus/succubus)",
+        "Germanic Mara/Alp nightmare tradition",
+        "Old Norse Mara",
+        "Hebrew Lilith tradition",
+        "Newfoundland 'Old Hag' phenomenon"
+      ],
+      "stories": [
+        "Malleus Maleficarum accounts of incubus visitations (1486)",
+        "Daemonologie of King James (1597)",
+        "Merlin's parentage attributed to an incubus in Arthurian legend",
+        "Medieval hagiographies documenting saints resisting incubus attacks"
+      ],
+      "beliefs": "In the medieval Christian framework, succubi and incubi were understood as real demonic entities whose purpose was to corrupt human souls through sexual sin. The tradition provided theological explanations for nocturnal emissions, unwanted sexual dreams, and out-of-wedlock pregnancies. Religious remedies included prayer, fasting, confession, and wearing holy objects."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Malleus Maleficarum — Heinrich Kramer & Jacob Sprenger (1486)",
+        "Daemonologie — King James VI/I (1597)",
+        "On the Nightmare — Ernest Jones (1931)",
+        "The Terror That Comes in the Night — David J. Hufford (1982)"
+      ],
+      "film_tv": [
+        "Rosemary's Baby (1968, film) — incubus-type impregnation",
+        "Succubus (1968, film by Jesús Franco)",
+        "Jennifer's Body (2009, film)",
+        "Lost Girl (2010–2015, TV series featuring succubus protagonist)"
+      ],
+      "games": [
+        "Dungeons & Dragons — succubus as a monster type since 1st edition (1977)",
+        "Diablo series — succubus as enemy type"
+      ],
+      "other": [
+        "Heavy metal music frequently uses succubus/incubus imagery",
+        "The band Incubus (formed 1991) takes its name from the demon type"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "David J. Hufford", "affiliation": "Pennsylvania State University (folklore)", "contribution": "Empirical cross-cultural study of sleep paralysis and the 'Old Hag' phenomenon; The Terror That Comes in the Night (1982) is the landmark academic treatment", "period": "1970s–2000s" },
+      { "name": "Ernest Jones", "affiliation": "British Psychoanalytic Society", "contribution": "On the Nightmare (1931): first major psychoanalytic analysis of nightmare/incubus tradition", "period": "1910s–1931" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Sleep paralysis research continues in clinical sleep medicine; the cultural dimensions of the phenomenon are studied in folklore and medical anthropology."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "kramer-sprenger-1486",
+      "type": "book",
+      "title": "Malleus Maleficarum",
+      "authors": ["Heinrich Kramer", "Jacob Sprenger"],
+      "date": "1486",
+      "notes": "Primary medieval demonological source; multiple modern translations available"
+    },
+    {
+      "id": "james-1597",
+      "type": "book",
+      "title": "Daemonologie",
+      "authors": ["King James VI of Scotland"],
+      "date": "1597",
+      "notes": "Royal demonological treatise discussing incubi and succubi"
+    },
+    {
+      "id": "jones-1931",
+      "type": "book",
+      "title": "On the Nightmare",
+      "authors": ["Ernest Jones"],
+      "publication": "Hogarth Press",
+      "date": "1931"
+    },
+    {
+      "id": "hufford-1982",
+      "type": "book",
+      "title": "The Terror That Comes in the Night: An Experience-Centered Study of Supernatural Assault Traditions",
+      "authors": ["David J. Hufford"],
+      "publication": "University of Pennsylvania Press",
+      "date": "1982"
+    },
+    {
+      "id": "wikipedia-succubus",
+      "type": "website",
+      "title": "Succubus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Succubus",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
